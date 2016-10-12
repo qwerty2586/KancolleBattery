@@ -2,9 +2,6 @@ package com.shovelgrill.kancollebattery.db;
 
 import android.test.AndroidTestCase;
 
-/**
- * Created by qwerty on 21. 7. 2016.
- */
 public class TestDb extends AndroidTestCase {
 
     private ShipsDbHelper db;

@@ -4,9 +4,6 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.provider.BaseColumns;
 
-/**
- * Created by qwerty on 21. 7. 2016.
- */
 public class Ship {
 
     public static final int ID_NOT_INITIALIZED = -1;

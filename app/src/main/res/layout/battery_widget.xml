@@ -1,21 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#09C"
-    android:padding="@dimen/widget_margin">
+    android:layout_height="match_parent"    >
 
-    <TextView
-        android:id="@+id/appwidget_text"
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/shipImageView"
+
+
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_margin="8dp"
-        android:background="#09C"
-        android:contentDescription="@string/appwidget_text"
-        android:text="@string/appwidget_text"
-        android:textColor="#ffffff"
-        android:textSize="24sp"
-        android:textStyle="bold|italic" />
+        android:src="@drawable/compass_400"
+        android:height="120dp"
+        android:width="120dp"
+        android:scaleType="fitCenter"
+
+        />
+
+    <ProgressBar
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:height="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="100"
+        android:id="@+id/batteryProgressBar1"
+        android:progressDrawable="@drawable/custom_progressbar1"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <ProgressBar
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:height="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="100"
+        android:id="@+id/batteryProgressBar2"
+        android:progressDrawable="@drawable/custom_progressbar2"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <ProgressBar
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:height="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="100"
+        android:id="@+id/batteryProgressBar3"
+        android:progressDrawable="@drawable/custom_progressbar3"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <ProgressBar
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:height="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="100"
+        android:id="@+id/batteryProgressBar4"
+        android:progressDrawable="@drawable/custom_progressbar4"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <ProgressBar
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:height="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="100"
+        android:id="@+id/batteryProgressBar5"
+        android:progressDrawable="@drawable/custom_progressbar5"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <ProgressBar
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:height="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="100"
+        android:id="@+id/batteryProgressBar6"
+        android:progressDrawable="@drawable/custom_progressbar6"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/stampImageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/dmg2"
+
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textIsSelectable="false"
+            android:id="@+id/batteryText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:layout_marginBottom="15dp"/>
+    </FrameLayout>
+
+
 
 </RelativeLayout>

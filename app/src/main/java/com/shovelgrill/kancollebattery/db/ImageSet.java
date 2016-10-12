@@ -4,9 +4,6 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.provider.BaseColumns;
 
-/**
- * Created by qwerty on 21. 7. 2016.
- */
 public class ImageSet {
 
     public static final int ID_NOT_INITIALIZED = -1;
@@ -57,5 +54,13 @@ public class ImageSet {
         this.downloaded = cursor.getInt(cursor.getColumnIndex(Entry.COLUMN_DOWNLOADED))==1 ? true : false;
         this.name = cursor.getString(cursor.getColumnIndex(Entry.COLUMN_NAME));
         this.ship_name = cursor.getString(cursor.getColumnIndex(Entry.COLUMN_SHIP_NAME));
+
+
+    }
+
+
+    public static final String WAIFU_FOLDER = "nice_waifu_pics";
+    public static String[] getFileName(int wiki_id) {
+        return new String[]{""+wiki_id+"_img.png",""+wiki_id+"_dmg.png"};
     }
 }

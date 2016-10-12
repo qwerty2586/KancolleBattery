@@ -1,7 +1,26 @@
 <resources>
-    <string name="app_name">Kancolle Battery</string>
-    <string name="title_activity_setting">Widget Setup</string>
-    <string name="appwidget_text">EXAMPLE</string>
-    <string name="configure">Configure</string>
-    <string name="add_widget">Add widget</string>
+    <string name="app_name">Kancolle Battery Widget</string>
+    <string name="title_activity_download">Kancolle Battery Widget</string>
+    <string name="title_activity_download2">Select your waifu</string>
+    <string name="undamaged_ship_string">Virgin</string>
+    <string name="damaged_ship_string">Battle-Hardened</string>
+    <string name="action_search">Search waifu</string>
+    <string name="action_download">Reload</string>
+    <string name="string_refresh_ships_question">Reload list of ships?</string>
+    <string name="progress_message">Girls are being downloaded</string>
+    <string name="ship_preview">Preview</string>
+    <string name="action_apply">Apply Changes</string>
+    <string name="please_select">Tap here to select your waifu!</string>
+    <string name="ship_not_selected_yet">No waifu selected!</string>
+    <string name="selected_ship">Selected waifu</string>
+    <string name="string_refresh_ships_question2">Reload database from kancolle.wikia.com ? This can take some time and data.</string>
+    <string name="search_hint">Find your waifu</string>
+    <string name="download_succesfull">Download completed</string>
+    <string name="download_failed1">Failed to download list of ships</string>
+    <string name="download_failed2">Try again later</string>
+    <string name="download_image_failed1">"Download of "</string>
+    <string name="download_image_failed2">" has failed."</string>
+    <string name="toast_not_allowed_permission">No waifus for you until you let them land on your SD card!</string>
+    <string name="allow_permission">permissions setting</string>
+    <string name="allow_permission2">Kancolle Battery Widget requires permission to save images on your external storage (SD card). </string>
 </resources>
